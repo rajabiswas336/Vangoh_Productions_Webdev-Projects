@@ -62,8 +62,52 @@
     <div class="thai-border-overlay"></div>
     <div class="hero-particles"></div>
     <div class="hero-content">
-      <img src="images/logo.png" alt="Thai Time Massage" class="hero-logo" data-i18n="alt.logoHero" data-i18n-attr="alt">
-      <img src="images/hero-banner.png" alt="Relaxing Thai massage" class="hero-banner" data-i18n="alt.heroBanner" data-i18n-attr="alt">
+      <!-- Slideshow Container -->
+      <div class="hero-slideshow">
+        <div class="slideshow-container">
+          <div class="slide fade">
+            <img src="images/hero-banner.png" alt="hero image">
+          </div>
+          <div class="slide fade">
+            <img src="images/thai-traditional.jpeg" alt="Thai Traditional Massage">
+          </div>
+          <div class="slide fade">
+            <img src="images/thai-oil.png" alt="Thai Oil Massage / Relax Massage">
+          </div>
+          <div class="slide fade">
+            <img src="images/thai-herbal.png" alt="Thai Herbal Massage">
+          </div>
+          <div class="slide fade">
+            <img src="images/thai-combination.png" alt="Thai Combination / Deep Tissue">
+          </div>
+          <div class="slide fade">
+            <img src="images/thai-sport.png" alt="Thai Sport Massage">
+          </div>
+          <div class="slide fade">
+            <img src="images/anti-stress.png" alt="Anti-Stress Massage">
+          </div>
+          <div class="slide fade">
+            <img src="images/foot-reflexology-new.png" alt="Foot Reflexology Massage">
+          </div>
+          <div class="slide fade">
+            <img src="images/back-neck-shoulder.png" alt="Back, Neck & Shoulder">
+          </div>
+        </div>
+        <!-- Navigation Dots -->
+        <div class="slideshow-dots">
+          
+          <span class="dot" onclick="currentSlide(0)"></span>
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+      </div>
+      
       <p class="hero-tagline" data-i18n="hero.tagline">Authentic Thai Wellness in the Heart of Lisbon</p>
       <div class="hero-hours">
         <p data-i18n="hero.openEveryday">Open Everyday</p>
@@ -92,109 +136,23 @@
 
     <div class="services-grid">
 
-      <!-- Service 1: Foot Reflexology Massage -->
-      <div class="service-card reveal" id="service-foot-reflexology">
-        <div class="service-image">
-          <img src="images/foot-reflexology-new.png" alt="Foot Reflexology Massage" data-i18n="alt.footReflexology" data-i18n-attr="alt">
-          <div class="service-image-overlay"></div>
-        </div>
-        <div class="service-info">
-          <h3 class="service-name" data-i18n="service.footReflexology">Foot Reflexology Massage</h3>
-          <div class="service-prices">
-            <span class="price-tag">30min=30€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">60min=50€</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service 2: Anti-Stress Massage -->
-      <div class="service-card reveal" id="service-anti-stress">
-        <div class="service-image">
-          <img src="images/anti-stress.png" alt="Anti-Stress Massage" data-i18n="alt.antiStress" data-i18n-attr="alt">
-          <div class="service-image-overlay"></div>
-        </div>
-        <div class="service-info">
-          <h3 class="service-name" data-i18n="service.antiStress">Anti-Stress Massage</h3>
-          <div class="service-prices">
-            <span class="price-tag">45min=35€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">60min=45€</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service 3: Thai Herbal Massage -->
-      <div class="service-card reveal" id="service-thai-herbal">
-        <div class="service-image">
-          <img src="images/thai-herbal.png" alt="Thai Herbal Massage" data-i18n="alt.thaiHerbal" data-i18n-attr="alt">
-          <div class="service-image-overlay"></div>
-        </div>
-        <div class="service-info">
-          <h3 class="service-name" data-i18n="service.thaiHerbal">Thai Herbal Massage</h3>
-          <div class="service-prices">
-            <span class="price-tag">45min=35€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">60min=50€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">90min=70€</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service 4: Back, Neck & Shoulder -->
-      <div class="service-card reveal" id="service-back-neck">
-        <div class="service-image">
-          <img src="images/back-neck-shoulder.png" alt="Back, Neck & Shoulder Massage" data-i18n="alt.backNeck" data-i18n-attr="alt">
-          <div class="service-image-overlay"></div>
-        </div>
-        <div class="service-info">
-          <h3 class="service-name" data-i18n="service.backNeck">Back, Neck & Shoulder</h3>
-          <div class="service-prices">
-            <span class="price-tag">30min=25€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">45min=35€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">60min=45€</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service 5: Thai Traditional Massage -->
+      <!-- Service 1: Thai Traditional Massage -->
       <div class="service-card reveal" id="service-thai-traditional">
         <div class="service-image">
-          <img src="images/thai-traditional.png" alt="Thai Traditional Massage" data-i18n="alt.thaiTraditional" data-i18n-attr="alt">
+          <img src="images\thai-traditional.jpeg" alt="Thai Traditional Massage" data-i18n="alt.thaiTraditional" data-i18n-attr="alt">
           <div class="service-image-overlay"></div>
         </div>
         <div class="service-info">
           <h3 class="service-name" data-i18n="service.thaiTraditional">Thai Traditional Massage</h3>
           <div class="service-prices">
-            <span class="price-tag">45min=35€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">60min=45€</span>
-            <span class="price-divider">/</span>
-            <span class="price-tag">90min=65€</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Service 6: Thai Sport Massage -->
-      <div class="service-card reveal" id="service-thai-sport">
-        <div class="service-image">
-          <img src="images/thai-sport.png" alt="Thai Sport Massage" data-i18n="alt.thaiSport" data-i18n-attr="alt">
-          <div class="service-image-overlay"></div>
-        </div>
-        <div class="service-info">
-          <h3 class="service-name" data-i18n="service.thaiSport">Thai Sport Massage</h3>
-          <div class="service-prices">
             <span class="price-tag">60min=50€</span>
             <span class="price-divider">/</span>
-            <span class="price-tag">90min=70€</span>
+            <span class="price-tag">90min=75€</span>
           </div>
         </div>
       </div>
 
-      <!-- Service 7: Thai Oil Massage / Relax Massage -->
+      <!-- Service 2: Thai Oil Massage / Relax Massage -->
       <div class="service-card reveal" id="service-thai-oil">
         <div class="service-image">
           <img src="images/thai-oil.png" alt="Thai Oil Massage / Relax Massage" data-i18n="alt.thaiOilRelax" data-i18n-attr="alt">
@@ -210,7 +168,23 @@
         </div>
       </div>
 
-      <!-- Service 8: Thai Combination / Deep Tissue -->
+      <!-- Service 3: Thai Herbal Massage -->
+      <div class="service-card reveal" id="service-thai-herbal">
+        <div class="service-image">
+          <img src="images/thai-herbal.png" alt="Thai Herbal Massage" data-i18n="alt.thaiHerbal" data-i18n-attr="alt">
+          <div class="service-image-overlay"></div>
+        </div>
+        <div class="service-info">
+          <h3 class="service-name" data-i18n="service.thaiHerbal">Thai Herbal Massage</h3>
+          <div class="service-prices">
+            <span class="price-tag">60min=50€</span>
+            <span class="price-divider">/</span>
+            <span class="price-tag">90min=75€</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4: Thai Combination / Deep Tissue -->
       <div class="service-card reveal" id="service-thai-combination">
         <div class="service-image">
           <img src="images/thai-combination.png" alt="Thai Combination / Deep Tissue" data-i18n="alt.thaiCombo" data-i18n-attr="alt">
@@ -221,7 +195,71 @@
           <div class="service-prices">
             <span class="price-tag">60min=50€</span>
             <span class="price-divider">/</span>
-            <span class="price-tag">90min=70€</span>
+            <span class="price-tag">90min=75€</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 5: Thai Sport Massage -->
+      <div class="service-card reveal" id="service-thai-sport">
+        <div class="service-image">
+          <img src="images/thai-sport.png" alt="Thai Sport Massage" data-i18n="alt.thaiSport" data-i18n-attr="alt">
+          <div class="service-image-overlay"></div>
+        </div>
+        <div class="service-info">
+          <h3 class="service-name" data-i18n="service.thaiSport">Thai Sport Massage</h3>
+          <div class="service-prices">
+            <span class="price-tag">60min=50€</span>
+            <span class="price-divider">/</span>
+            <span class="price-tag">90min=75€</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 6: Anti-Stress Massage -->
+      <div class="service-card reveal" id="service-anti-stress">
+        <div class="service-image">
+          <img src="images/anti-stress.png" alt="Anti-Stress Massage" data-i18n="alt.antiStress" data-i18n-attr="alt">
+          <div class="service-image-overlay"></div>
+        </div>
+        <div class="service-info">
+          <h3 class="service-name" data-i18n="service.antiStress">Anti-Stress Massage</h3>
+          <div class="service-prices">
+            <span class="price-tag">60min=50€</span>
+            <span class="price-divider">/</span>
+            <span class="price-tag">90min=75€</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 7: Foot Reflexology Massage -->
+      <div class="service-card reveal" id="service-foot-reflexology">
+        <div class="service-image">
+          <img src="images/foot-reflexology-new.png" alt="Foot Reflexology Massage" data-i18n="alt.footReflexology" data-i18n-attr="alt">
+          <div class="service-image-overlay"></div>
+        </div>
+        <div class="service-info">
+          <h3 class="service-name" data-i18n="service.footReflexology">Foot Reflexology Massage</h3>
+          <div class="service-prices">
+            <span class="price-tag">30min=30€</span>
+            <span class="price-divider">/</span>
+            <span class="price-tag">60min=50€</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 8: Back, Neck & Shoulder -->
+      <div class="service-card reveal" id="service-back-neck">
+        <div class="service-image">
+          <img src="images/back-neck-shoulder.png" alt="Back, Neck & Shoulder Massage" data-i18n="alt.backNeck" data-i18n-attr="alt">
+          <div class="service-image-overlay"></div>
+        </div>
+        <div class="service-info">
+          <h3 class="service-name" data-i18n="service.backNeck">Back, Neck & Shoulder</h3>
+          <div class="service-prices">
+            <span class="price-tag">30min=30€</span>
+            <span class="price-divider">/</span>
+            <span class="price-tag">60min=50€</span>
           </div>
         </div>
       </div>
@@ -240,7 +278,7 @@
       </div>
       <div class="about-address-card">
         <h3 data-i18n="about.addressTitle">ADDRESS</h3>
-        <p class="address-text" data-i18n-html="about.address">venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais</p>
+        <p class="address-text" data-i18n-html="about.address">Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais</p>
         <div class="about-links">
           <a href="https://www.thaimassagelisbon.com" target="_blank">www.thaimassagelisbon.com</a>
           <span class="link-divider">|</span>
@@ -264,7 +302,7 @@
           <div class="contact-icon">📍</div>
           <div class="contact-detail">
             <h4 data-i18n="contact.location">Location</h4>
-            <p data-i18n-html="contact.address">venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais</p>
+            <p data-i18n-html="contact.address">Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais</p>
           </div>
         </div>
         <div class="contact-item">
@@ -313,14 +351,14 @@
           <label for="service" data-i18n="form.serviceLabel">Select Treatment</label>
           <select id="service" required>
             <option value="" data-i18n="form.servicePlaceholder">Choose a treatment...</option>
-            <option data-i18n="service.footReflexology">Foot Reflexology Massage</option>
-            <option data-i18n="service.antiStress">Anti-Stress Massage</option>
-            <option data-i18n="service.thaiHerbal">Thai Herbal Massage</option>
-            <option data-i18n="service.backNeck">Back, Neck & Shoulder</option>
             <option data-i18n="service.thaiTraditional">Thai Traditional Massage</option>
-            <option data-i18n="service.thaiSport">Thai Sport Massage</option>
             <option data-i18n="service.thaiOilRelax">Thai Oil Massage / Relax Massage</option>
+            <option data-i18n="service.thaiHerbal">Thai Herbal Massage</option>
             <option data-i18n="service.thaiCombo">Thai Combination / Deep Tissue</option>
+            <option data-i18n="service.thaiSport">Thai Sport Massage</option>
+            <option data-i18n="service.antiStress">Anti-Stress Massage</option>
+            <option data-i18n="service.footReflexology">Foot Reflexology Massage</option>
+            <option data-i18n="service.backNeck">Back, Neck & Shoulder</option>
           </select>
         </div>
         <div class="form-group">
@@ -338,9 +376,10 @@
       <div class="footer-brand">
         <img src="images/logo.png" alt="Thai Time Massage">
         <h3>THAI TIME MASSAGE</h3>
+        <h2>CASCAIS</h2>
       </div>
       <div class="footer-info">
-        <p data-i18n-html="footer.address">venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais</p>
+        <p data-i18n-html="footer.address">Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais</p>
         <p><a href="https://www.thaimassagelisbon.com" target="_blank">www.thaimassagelisbon.com</a> | <a href="mailto:thaitimecascais26@gmail.com">thaitimecascais26@gmail.com</a></p>
         <p><a href="tel:+351923320789">+351 923 320 789</a></p>
         <p data-i18n="footer.openEveryday">Open Everyday: 10:00 – 20:00</p>

@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
       "about.openEveryday": "Open Everyday",
       "about.hours": "10AM TO 8PM | 10:00-20:00",
       "about.addressTitle": "Address",
-      "about.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "about.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.title": "Book Now",
       "contact.subtitle": "Reserve your treatment today. Call us or fill in the form below.",
       "contact.visit": "Visit Our Spa",
       "contact.location": "Location",
-      "contact.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "contact.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.phone": "Phone",
       "contact.email": "Email",
       "contact.website": "Website",
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "form.messageLabel": "Special Requests",
       "form.messagePlaceholder": "Any preferences or health notes...",
       "form.submit": "Book Appointment",
-      "footer.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "footer.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "footer.openEveryday": "Open Everyday: 10:00 – 20:00",
       "footer.rights": "© 2024 Thai Time Massage Lisbon. All rights reserved.",
       "aria.toggleMenu": "Toggle menu",
@@ -101,12 +101,12 @@ document.addEventListener('DOMContentLoaded', () => {
       "about.openEveryday": "Aberto todos os dias",
       "about.hours": "10H AS 20H | 10:00-20:00",
       "about.addressTitle": "Morada",
-      "about.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "about.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.title": "Reservar Agora",
       "contact.subtitle": "Reserve o seu tratamento hoje. Ligue ou preencha o formulario abaixo.",
       "contact.visit": "Visite o Nosso Spa",
       "contact.location": "Localizacao",
-      "contact.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "contact.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.phone": "Telefone",
       "contact.email": "Email",
       "contact.website": "Website",
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "form.messageLabel": "Pedidos Especiais",
       "form.messagePlaceholder": "Preferencias ou notas de saude...",
       "form.submit": "Marcar",
-      "footer.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "footer.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "footer.openEveryday": "Aberto todos os dias: 10:00 – 20:00",
       "footer.rights": "© 2024 Thai Time Massage Lisbon. Todos os direitos reservados.",
       "aria.toggleMenu": "Alternar menu",
@@ -176,12 +176,12 @@ document.addEventListener('DOMContentLoaded', () => {
       "about.openEveryday": "Aperto tutti i giorni",
       "about.hours": "10:00-20:00",
       "about.addressTitle": "Indirizzo",
-      "about.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "about.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.title": "Prenota Ora",
       "contact.subtitle": "Prenota il tuo trattamento oggi. Chiama o compila il modulo qui sotto.",
       "contact.visit": "Visita il Nostro Centro",
       "contact.location": "Posizione",
-      "contact.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "contact.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.phone": "Telefono",
       "contact.email": "Email",
       "contact.website": "Sito Web",
@@ -198,7 +198,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "form.messageLabel": "Richieste Speciali",
       "form.messagePlaceholder": "Preferenze o note sulla salute...",
       "form.submit": "Prenota",
-      "footer.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "contact.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "footer.openEveryday": "Aperto tutti i giorni: 10:00 – 20:00",
       "footer.rights": "© 2024 Thai Time Massage Lisbon. Tutti i diritti riservati.",
       "aria.toggleMenu": "Apri menu",
@@ -251,12 +251,12 @@ document.addEventListener('DOMContentLoaded', () => {
       "about.openEveryday": "Abierto todos los dias",
       "about.hours": "10:00-20:00",
       "about.addressTitle": "Direccion",
-      "about.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "about.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.title": "Reservar Ahora",
       "contact.subtitle": "Reserve su tratamiento hoy. Llame o rellene el formulario a continuacion.",
       "contact.visit": "Visita Nuestro Spa",
       "contact.location": "Ubicacion",
-      "contact.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "contact.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.phone": "Telefono",
       "contact.email": "Email",
       "contact.website": "Sitio Web",
@@ -273,7 +273,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "form.messageLabel": "Peticiones Especiales",
       "form.messagePlaceholder": "Preferencias o notas de salud...",
       "form.submit": "Reservar",
-      "footer.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "footer.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "footer.openEveryday": "Abierto todos los dias: 10:00 – 20:00",
       "footer.rights": "© 2024 Thai Time Massage Lisbon. Todos los derechos reservados.",
       "aria.toggleMenu": "Alternar menu",
@@ -326,12 +326,12 @@ document.addEventListener('DOMContentLoaded', () => {
       "about.openEveryday": "Ouvert tous les jours",
       "about.hours": "10H À 20H | 10:00-20:00",
       "about.addressTitle": "Adresse",
-      "about.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "about.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.title": "Réserver Maintenant",
       "contact.subtitle": "Réservez votre traitement dès aujourd'hui. Appelez-nous ou remplissez le formulaire ci-dessous.",
       "contact.visit": "Visitez Notre Spa",
       "contact.location": "Localisation",
-      "contact.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "contact.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "contact.phone": "Téléphone",
       "contact.email": "Email",
       "contact.website": "Site Web",
@@ -348,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "form.messageLabel": "Demandes Particulières",
       "form.messagePlaceholder": "Préférences ou notes de santé...",
       "form.submit": "Réserver une Séance",
-      "footer.address": "venida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
+      "footer.address": "Avenida 25 de Abril, No-8, 1 DTO<br>2750-511 Cascais",
       "footer.openEveryday": "Ouvert tous les jours : 10:00 – 20:00",
       "footer.rights": "© 2024 Thai Time Massage Lisbon. Tous droits réservés.",
       "aria.toggleMenu": "Afficher le menu",
@@ -579,4 +579,51 @@ document.addEventListener('DOMContentLoaded', () => {
       card.style.borderColor = '';
     });
   });
+
+  // ===== HERO SLIDESHOW =====
+  let slideIndex = 0;
+  let slideshowAutoTimeout;
+
+  function showSlides(n) {
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+
+    if (n >= slides.length) {
+      slideIndex = 0;
+    }
+    if (n < 0) {
+      slideIndex = slides.length - 1;
+    }
+
+    slides.forEach(slide => slide.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+
+    if (slides[slideIndex]) {
+      slides[slideIndex].classList.add('active');
+    }
+    if (dots[slideIndex]) {
+      dots[slideIndex].classList.add('active');
+    }
+  }
+
+  function currentSlide(n) {
+    clearTimeout(slideshowAutoTimeout);
+    slideIndex = n;
+    showSlides(slideIndex);
+    autoSlideshow();
+  }
+
+  function nextSlide() {
+    slideIndex++;
+    showSlides(slideIndex);
+  }
+
+  function autoSlideshow() {
+    nextSlide();
+    slideshowAutoTimeout = setTimeout(autoSlideshow, 4500);
+  }
+
+  // Initialize slideshow
+  showSlides(slideIndex);
+  autoSlideshow();
 });
